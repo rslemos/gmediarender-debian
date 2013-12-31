@@ -1,0 +1,12 @@
+# Defaults for gmediarender initscript
+# sourced by /etc/init.d/gmediarender
+# installed at /etc/default/gmediarender by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# gmediarender control (yes means start daemon).
+GMEDIARENDERRUN=yes
+
+GMEDIARENDERNAME=""

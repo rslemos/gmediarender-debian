@@ -1,0 +1,18 @@
+Source: gmediarender
+Priority: optional
+Maintainer: Rodrigo Lemos <rslemos@gmail.com> 
+Build-Depends: debhelper (>= 9), autotools-dev, libupnp-dev, libgstreamer1.0-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/hzeller/gmrender-resurrect
+#Vcs-Git: https://github.com/hzeller/gmrender-resurrect.git
+
+Package: gmediarender
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good
+Recommends: gstreamer1.0-plugins-bad
+Suggests: gstreamer1.0-plugins-ugly
+Description: UPnP Media renderer
+ GMediaRender is a UPnP(tm) media renderer for POSIX(r)-compliant
+ systems, such as Linux(r) or UNIX(r). It implements the server 
+ component that provides UPnP controllers a means to render media 
+ content (audio, video and images) from a UPnP media server.

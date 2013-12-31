@@ -1,0 +1,10 @@
+GMediaRender for Debian
+-----------------------
+
+This UPnP Media Render is designed to be run by any non-root user.
+Alternatively, GMediaRender can be started at boot time by editing
+/etc/default/gmediarender, setting GMEDIARENDERRUN to yes and setting
+GMEDIARENDERNAME to the friendly name by which the server announces
+itself. In this case GMediaRender is started as user gmediarender.
+
+ -- Rodrigo Lemos <rslemos@gmail.com>  Sun, 24 Nov 2013 14:40:01 -0200
